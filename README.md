@@ -1,4 +1,7 @@
-# lab04
+# lab0
+
+Pedro Alejandro Rozo, Juan Felipe Bulla Valencia
+Steven Monrroy
 BCD2SSeg
 
 # Introducción
