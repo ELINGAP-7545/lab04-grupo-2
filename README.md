@@ -1,4 +1,4 @@
-#Lab04-Grupo 2
+#Lab04-Grupo 2 the bestt team
 
 Pedro Alejandro Rozo, Juan Felipe Bulla Valencia
 Steven Monrroy
