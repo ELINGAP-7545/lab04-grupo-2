@@ -17,7 +17,7 @@ como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https:/
 En este Ejercicio se propone que realicen el diseño, sintentización e implementación del Display de 7 sergmentos, el cual permita visualizar números  en representación hexadecimal (0x0 a 0xF).  En el siguiente gráfico, se observa cual es el funcionamiento deseado del display:
 
 
-![gif display](https://www.google.com/url?sa=i&url=https%3A%2F%2Friverglennapts.com%2Fes%2Fcombinational-circuit%2F202-seven-segment-display.html&psig=AOvVaw0rhoo7HZkW7xkwWR0t9jhV&ust=1586215130672000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODJ2oW20ugCFQAAAAAdAAAAABAf)
+![gif display](https://riverglennapts.com/images/combinational-circuit/seven-segment-display.gif)
 
 Imagen tomada de [https://riverglennapts.com/es/combinational-circuit/202-seven-segment-display.html)
 
