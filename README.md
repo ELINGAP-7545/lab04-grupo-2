@@ -58,6 +58,8 @@ Por lo tanto, se debe  realizar una multiplexación  entre los Anodos de cada Di
 
 ![gif display](https://controlautomaticoeducacion.com/wp-content/uploads/4x7seg_slow.gif)
 
+Imagen tomada de [https://controlautomaticoeducacion.com/arduino/multiplexar-display-7-segmentos/)
+
 Visualmente esto se entiende mas con la siguiente simulación, donde se desea visualizar el  número en representación hexadecimal `0x4321`:
 
 
