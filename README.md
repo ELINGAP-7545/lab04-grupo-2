@@ -2,10 +2,11 @@
 
 Pedro Alejandro Rozo
 Juan Felipe Bulla Valencia
-Steven Monrroy
+Steven herrera  Monroy
 
 BCD2SSeg
 
+![imagen]()
 
 
 Una vez clone el repositorio, realice lo siguiente:
