@@ -20,7 +20,6 @@ En este Ejercicio se propone que realicen el diseño, sintentización e implemen
 
 
 ![gif display](https://riverglennapts.com/images/combinational-circuit/seven-segment-display.gif)
-
 Imagen tomada de [https://riverglennapts.com/es/combinational-circuit/202-seven-segment-display.html)
 
 A continuación se presentan los pasos recomendados para el ejercicio:
@@ -57,7 +56,6 @@ Por ahora, se ha visualizado el números en un solo display de 7 segmentos. Pero
 Por lo tanto, se debe  realizar una multiplexación  entre los Anodos de cada Display, con el fin de visualizar en cada display un número diferente.  En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualización entre cada display no se perciba. Para ello, cada display debe activarse máximo cada 16 ms.
 
 ![gif display](https://controlautomaticoeducacion.com/wp-content/uploads/4x7seg_slow.gif)
-
 Imagen tomada de [https://controlautomaticoeducacion.com/arduino/multiplexar-display-7-segmentos/)
 
 Visualmente esto se entiende mas con la siguiente simulación, donde se desea visualizar el  número en representación hexadecimal `0x4321`:
