@@ -50,11 +50,13 @@ Si el diseño digital de algún sistema se requiere mas de un display de 7 segme
 
 Por ahora, se ha visualizado el números en un solo display de 7 segmentos. Pero en la mayoría de los casos, los 7 pines de los cátodos están inter-conectados entre cada display, como se observa en la figura:
 
-![gif display](https://controlautomaticoeducacion.com/wp-content/uploads/4x7seg_slow.gif)
+
 
 ![conex](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/conex.png)
 
 Por lo tanto, se debe  realizar una multiplexación  entre los Anodos de cada Display, con el fin de visualizar en cada display un número diferente.  En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualización entre cada display no se perciba. Para ello, cada display debe activarse máximo cada 16 ms.
+
+![gif display](https://controlautomaticoeducacion.com/wp-content/uploads/4x7seg_slow.gif)
 
 Visualmente esto se entiende mas con la siguiente simulación, donde se desea visualizar el  número en representación hexadecimal `0x4321`:
 
