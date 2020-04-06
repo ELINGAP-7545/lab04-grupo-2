@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bulla/OneDrive/Escritorio/4 Display/simulation/modelsim
+vBCD_7SEGx4
+Z1 !s110 1586124119
+!i10b 1
+!s100 _oKXJPW];R:>@;LhMkiae3
+I4lcZNORYIl4Y]6knYjk=93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1586123926
+8C:/Users/bulla/OneDrive/Escritorio/4 Display/BCD_7SEGx4.v
+FC:/Users/bulla/OneDrive/Escritorio/4 Display/BCD_7SEGx4.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1586124119.000000
+!s107 C:/Users/bulla/OneDrive/Escritorio/4 Display/BCD_7SEGx4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/bulla/OneDrive/Escritorio/4 Display|C:/Users/bulla/OneDrive/Escritorio/4 Display/BCD_7SEGx4.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/bulla/OneDrive/Escritorio/4 Display}
+Z6 tCvgOpt 0
+n@b@c@d_7@s@e@gx4
+vBCDtoSSeg
+R1
+!i10b 1
+!s100 T2CJQTbG8bV:jjZdMOViL0
+I52Gmfhf4[FA[h62e9DiRR3
+R2
+R0
+w1585882903
+8C:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src/BCDtoSSeg.v
+FC:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src/BCDtoSSeg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src/BCDtoSSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src|C:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src/BCDtoSSeg.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/bulla/OneDrive/Documents/GitHub/lab04-grupo-2/hdl/src
+R6
+n@b@c@dto@s@seg

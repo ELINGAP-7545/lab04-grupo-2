@@ -12,7 +12,7 @@ module BCDtoSSeg_TB;
 	// Instantiate the Unit Under Test (UUT)
 	BCDtoSSeg uut (
 		.BCD(BCD), 
-		.SSeg(SSeg) 
+		.SSeg(SSeg)
 	);
 
 	initial begin
