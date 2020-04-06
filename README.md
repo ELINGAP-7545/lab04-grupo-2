@@ -1,7 +1,9 @@
-#Lab04-Grupo 2 the bestt team
+#Lab04-Grupo 2 
 
 Pedro Alejandro Rozo
+
 Juan Felipe Bulla Valencia
+
 Steven herrera  Monroy
 
 BCD2SSeg
