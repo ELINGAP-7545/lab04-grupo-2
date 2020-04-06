@@ -6,7 +6,7 @@ Steven herrera  Monroy
 
 BCD2SSeg
 
-![imagen](display 7 segmentos)
+![imagen](imagen 7 segmentos)
 
 
 Una vez clone el repositorio, realice lo siguiente:
