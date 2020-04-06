@@ -6,7 +6,7 @@ Steven Monrroy
 
 BCD2SSeg
 
-![imagen](arquitectura/imagen 7 segmentos)
+![imagen]()
 
 
 Una vez clone el repositorio, realice lo siguiente:
