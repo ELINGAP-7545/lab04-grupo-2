@@ -20,6 +20,7 @@ En este Ejercicio se propone que realicen el diseño, sintentización e implemen
 
 
 ![gif display](https://riverglennapts.com/images/combinational-circuit/seven-segment-display.gif)
+
 Imagen tomada de [https://riverglennapts.com/es/combinational-circuit/202-seven-segment-display.html)
 
 A continuación se presentan los pasos recomendados para el ejercicio:
