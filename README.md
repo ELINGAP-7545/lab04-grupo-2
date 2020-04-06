@@ -6,7 +6,6 @@ Steven herrera  Monroy
 
 BCD2SSeg
 
-![imagen](lab04-grupo-2/imagen 7 segmentos.pdf)
 
 
 Una vez clone el repositorio, realice lo siguiente:
