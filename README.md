@@ -6,6 +6,7 @@ Steven Monrroy
 
 BCD2SSeg
 
+![imagen]()
 
 
 Una vez clone el repositorio, realice lo siguiente:
