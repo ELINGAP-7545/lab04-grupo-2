@@ -106,7 +106,8 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 
 
-````timescale 1ns / 1ps
+```verilog
+timescale 1ns / 1ps
 module display(
     input [15:0] num,
     input clk,
