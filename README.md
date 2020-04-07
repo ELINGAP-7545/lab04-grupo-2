@@ -14,7 +14,7 @@ Una vez clone el repositorio, realice lo siguiente:
 
 ## Diseño BCD-7seg
 
-como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
+Como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
 En este Ejercicio se propone que realicen el diseño, sintentización e implementación del Display de 7 sergmentos, el cual permita visualizar números  en representación hexadecimal (0x0 a 0xF).  En el siguiente gráfico, se observa cual es el funcionamiento deseado del display:
 
@@ -29,15 +29,15 @@ A continuación se presentan los pasos recomendados para el ejercicio:
 
 ![bcd_black](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab03-BCD2SSeg/doc/BCD2SSeg.jpg)
 
-Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contiene  una salida `An`. esta salida es para conectar eventualmente el Ã¡nodo del display y  poder hacer visualizaciÃ³n dinÃ¡mica, cuando se tiene mas de un display conectado.
+Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contiene  una salida `An`. esta salida es para conectar eventualmente el Ánodo del display y  poder hacer visualización dinámica, cuando se tiene mas de un display conectado.
 
 Es de aclarar que deben ser de la misma caracteristica, dado que existen display tanto anodo común como catodo común.
 
 ![Carac](https://github.com/ELINGAP-7545/lab04-grupo-2/blob/master/Anodo%20Catodo.JPG)
 
-**Definir la descripciÃ³n Funcional**
+**Definir la descripción Funcional**
 
-Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripciÃ³n algorÃ­tmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseÃ±o. Ejemplo, si desea  visualizar el nÃºmero **1**, la salida seria  de `Sseg es 0110000`. observe la grÃ¡fica a continuaciÃ³n, para generar las salidas acorde al nÃºmero de entrada.
+Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripción algorí­tmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseÃ±o. Ejemplo, si desea  visualizar el nÃºmero **1**, la salida seria  de `Sseg es 0110000`. observe la grÃ¡fica a continuaciÃ³n, para generar las salidas acorde al nÃºmero de entrada.
 
 ![sseg](http://www.coffeebrain.org/wiki/images/4/4b/Display_8.png)
 
