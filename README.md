@@ -80,23 +80,24 @@ En este sentido, se adiciona al HDL de siete segmentos 4 se馻les de control para
 
 ![estructural](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/display_7segx4_Diag_Estructural.jpg)
 
-Se evidencia que se deben construir cuatro m贸dulos  b谩sicos, de los cuales uno de ellos esta descrito en el ejercicio anterior, [BCDtoSSeg.v](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/src_ise_basys2/display_7segx4/BCDtoSSeg.v) . Los otros tres bloques son:
+Se evidencia que se deben construir cuatro m骴ulos  b醩icos, de los cuales uno de ellos esta descrito en el ejercicio anterior, [BCDtoSSeg.v](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/src_ise_basys2/display_7segx4/BCDtoSSeg.v) . Los otros tres bloques son:
 
-* Divisor de frecuencia: Su funci贸n es dividir la frecuencia de  `clk` de entrada, en el tiempo requerido para cada camvio de 谩nodo
-* Selector de 脕nodo: Sincronizado con la frecuencia  que genera el divisor, cambia en cada instante de tiempo el  谩nodo, se puede ver como un registro de desplazamiento del bit 0 `1110 1101 1011 0111`
-* Selector de Datos: dependiendo del 谩nodo activado, activa los datos correspondientes.
+* Divisor de frecuencia: Su funci髇 es dividir la frecuencia de  `clk` de entrada, en el tiempo requerido para cada cambio de 羘odo
+* Selector de 羘odo: Sincronizado con la frecuencia  que genera el divisor, cambia en cada instante de tiempo el 羘odo, se puede ver como un registro de desplazamiento del bit 0 `1110 1101 1011 0111`
+* Selector de Datos: dependiendo del 羘odo activado, activa los datos correspondientes.
+
 
 # Entregables
 
 Una vez clone el repositorio y lea la anterior guia, realice lo siguiente:
 
-En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta la descripci贸n del hardware que se implementa para visualizar un n煤mero hexadecimal de 32 bits en un display  y en 4 display de 7 segmentos.
+En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta la descripci髇 del hardware que se implementa para visualizar un n鷐ero hexadecimal de 32 bits en un display  y en 4 display de 7 segmentos.
 
-* Comprenda cada l铆nea del c贸digo HDL de los  archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
-* Realice en quartus la simulaci贸n para el BCD-7seg, analice los resultados.
-* Cree el nuevo proyecto HDL para Visualizaci贸n Din谩mica 4 Display, tomando como base los archivos dados.
+* Comprenda cada l憝nea del c骴igo HDL de los  archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
+* Realice en quartus la simulaci髇 para el BCD-7seg, analice los resultados.
+* Cree el nuevo proyecto HDL para Visualizaci髇 Din醡ica 4 Display, tomando como base los archivos dados.
 * Creer el archivo testbench.v
-* Genera la simulaci贸n, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
-* Modificar o A帽adir los bloques necesarios para que la visualizaci贸n sea en representaci贸n Decimal y no Hexadecimal.
-* Realice la respectiva publicaci贸n del repositorio antes de la fecha dada con todo el c贸digo  fuente 
+* Genera la simulaci髇, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+* Modificar o A馻dir los bloques necesarios para que la visualizaci髇 sea en representaci髇 Decimal y no Hexadecimal.
+* Realice la respectiva publicaci髇 del repositorio antes de la fecha dada con todo el c骴igo  fuente 
 
