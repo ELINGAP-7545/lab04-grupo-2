@@ -53,16 +53,14 @@ Si el dise駉 digital de alg鷑 sistema se requiere mas de un display de 7 segment
 
 Por ahora, se ha visualizado el n鷐ero en un solo display de 7 segmentos. Pero en la mayor憝a de los casos, los 7 pines de los c醫odos est醤 inter-conectados entre cada display, como se observa en la figura:
 
-
 ![conex](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/conex.png)
 
-Por lo tanto, se debe  realizar una multiplexaci贸n  entre los Anodos de cada Display, con el fin de visualizar en cada display un n煤mero diferente.  En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualizaci贸n entre cada display no se perciba. Para ello, cada display debe activarse m谩ximo cada 16 ms.
+Por lo tanto, se debe  realizar una multiplexaci髇  entre los Anodos de cada Display, con el fin de visualizar en cada display un n鷐ero diferente.  En otras palabras, en cada instante de tiempo, solo un display se encuentra activo. En este sentido, se debe garantizar que el destello en la visualizaci髇 entre cada display no se perciba. Para ello, cada display debe activarse m醲imo cada 16 ms.
 
 ![gif display](https://controlautomaticoeducacion.com/wp-content/uploads/4x7seg_slow.gif)
 Imagen tomada de [https://controlautomaticoeducacion.com/arduino/multiplexar-display-7-segmentos/)
 
-Visualmente esto se entiende mas con la siguiente simulaci贸n, donde se desea visualizar el  n煤mero en representaci贸n hexadecimal `0x4321`:
-
+Visualmente esto se entiende mas con la siguiente simulaci髇, donde se desea visualizar el n鷐ero en representaci髇 hexadecimal `0x4321`:
 
 ![diagrama](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/4sseg.jpg)
 
