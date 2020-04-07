@@ -37,16 +37,16 @@ Es de aclarar que deben ser de la misma caracteristica, dado que existen display
 
 **Definir la descripción Funcional**
 
-Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripción algorí­tmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseÃ±o. Ejemplo, si desea  visualizar el nÃºmero **1**, la salida seria  de `Sseg es 0110000`. observe la grÃ¡fica a continuaciÃ³n, para generar las salidas acorde al nÃºmero de entrada.
+Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripción algorí­tmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseño. Ejemplo, si desea  visualizar el número **1**, la salida seria  de `Sseg es 0110000`. observe la gráfica a continuación, para generar las salidas acorde al número de entrada.
 
 ![sseg](http://www.coffeebrain.org/wiki/images/4/4b/Display_8.png)
 
 
-* Definir en  HDL el comportamiento del sistema ** :  Use Verilog para hacer la descripciÃ³n funcional
-**simulaciÃ³n de Sistema** :  Use el Testbench para este fin.
+* Definir en  HDL el comportamiento del sistema ** :  Use Verilog para hacer la descripción funcional
+**simulación de Sistema** :  Use el Testbench para este fin.
 
 
-# Ejercicio - VisualizaciÃ³n DinÃ¡mica 4 Display
+# Ejercicio - Visualización Dinámica 4 Display
 
 
 Si el diseÃ±o digital de algÃºn sistema se requiere mas de un display de 7 segmentos, es necesario  generar una visualizaciÃ³n tal que sea necesario el menor nÃºmero de pines para conectar todos los display en con la FPGA.
