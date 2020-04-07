@@ -12,18 +12,18 @@ BCD2SSeg
 
 Una vez clone el repositorio, realice lo siguiente:
 
-## Dise帽o BCD-7seg
+## Dise駉 BCD-7seg
 
 como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
-En este Ejercicio se propone que realicen el dise帽o, sintentizaci贸n e implementaci贸n del Display de 7 sergmentos, el cual permita visualizar n煤meros  en representaci贸n hexadecimal (0x0 a 0xF).  En el siguiente gr谩fico, se observa cual es el funcionamiento deseado del display:
+En este Ejercicio se propone que realicen el dise駉, sintentizaci髇 e implementaci髇 del Display de 7 sergmentos, el cual permita visualizar n鷐eros  en representaci髇 hexadecimal (0x0 a 0xF).  En el siguiente gr醘ico, se observa cual es el funcionamiento deseado del display:
 
 
 ![gif display](https://riverglennapts.com/images/combinational-circuit/seven-segment-display.gif)
 
 Imagen tomada de [https://riverglennapts.com/es/combinational-circuit/202-seven-segment-display.html)
 
-A continuaci贸n se presentan los pasos recomendados para el ejercicio:
+A continuaci髇 se presentan los pasos recomendados para el ejercicio:
 
 **Definir la caja funcional del BCD**: 
 
