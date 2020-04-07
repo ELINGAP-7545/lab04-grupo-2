@@ -49,10 +49,9 @@ Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de 
 # Ejercicio - Visualización Dinámica 4 Display
 
 
-Si el diseÃ±o digital de algÃºn sistema se requiere mas de un display de 7 segmentos, es necesario  generar una visualizaciÃ³n tal que sea necesario el menor nÃºmero de pines para conectar todos los display en con la FPGA.
+Si el diseño digital de algún sistema se requiere mas de un display de 7 segmentos, es necesario generar una visualización tal que sea necesario el menor número de pines para conectar todos los display en con la FPGA.
 
-Por ahora, se ha visualizado el nÃºmeros en un solo display de 7 segmentos. Pero en la mayorÃ­a de los casos, los 7 pines de los cÃ¡todos estÃ¡n inter-conectados entre cada display, como se observa en la figura:
-
+Por ahora, se ha visualizado el número en un solo display de 7 segmentos. Pero en la mayorí­a de los casos, los 7 pines de los cátodos están inter-conectados entre cada display, como se observa en la figura:
 
 
 ![conex](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/conex.png)
