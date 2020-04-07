@@ -31,6 +31,9 @@ A continuación se presentan los pasos recomendados para el ejercicio:
 
 Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contiene  una salida `An`. esta salida es para conectar eventualmente el ánodo del display y  poder hacer visualización dinámica, cuando se tiene mas de un display conectado.
 
+Es de aclarar que deben ser de la misma caracteristica, dado que existen display tanto anodo com�n como catodo com�n.
+
+![Carac](https://github.com/ELINGAP-7545/lab04-grupo-2/blob/master/Anodo%20Catodo.JPG)
 
 **Definir la descripción Funcional**
 
