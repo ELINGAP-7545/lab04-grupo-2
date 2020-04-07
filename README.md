@@ -141,9 +141,9 @@ always @(posedge clk) begin
 end
 
 reg [1:0] count =0;
-always @(posedge enable) begin
+always @(posedge enable) begin //mientras se encuentra en flanco de subida y reset en uno, el contador va incrementando hasta
 		if(rst==1) begin
-			count<= 0;
+			count<= 0; // que el bit mas significativo de an  se desplace hasta uno
 			an<=4'b1111; 
 		end else begin 
 			count<= count+1;
