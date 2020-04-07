@@ -104,8 +104,7 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 # SOLUCIÓN
 
-'''verilog
-function test(){
+'''[verilog]
 `timescale 1ns / 1ps
 module display(
     input [15:0] num,
@@ -156,7 +155,6 @@ always @(posedge enable) begin
 end
 
 endmodule
-}
 '''
 
 
