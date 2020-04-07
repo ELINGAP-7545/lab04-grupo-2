@@ -127,7 +127,7 @@ BCDtoSSeg bcdtosseg(.BCD(bcd), .SSeg(sseg));
 reg [26:0] cfreq=0;
 wire enable;
 
-// Divisor de frecuecia 
+// Divisor de frecuecia //Su función es dividir la frecuencia de clk de entrada
 
 assign enable = cfreq[16];
 assign led =enable;
