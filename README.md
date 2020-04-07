@@ -159,8 +159,8 @@ end
 endmodule
 ```
 # TESTBENCH
-'''verilog
-`timescale 1ns / 1ps
+```verilog
+timescale 1ns / 1ps
 module testbench;
 
 	// Inputs
@@ -196,5 +196,5 @@ module testbench;
 	always #1 clk2 = ~clk2;
 	
 endmodule
-'''
+```
 
