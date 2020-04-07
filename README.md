@@ -67,11 +67,14 @@ Visualmente esto se entiende mas con la siguiente simulación, donde se desea vis
 
 ## Diagrama Caja negra 
 
-Como siempre, antes de realizar la descripciÃ³n del hardware se debe diseÃ±ar la caja funcional del modulo, con las entradas y salidas
+Como siempre, antes de realizar la descripción del hardware se debe diseñar la caja funcional del modulo, con las entradas y salidas
 
 ![diagrama caja negra ](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab04_display_7segx4/doc/display_7segx4.jpg)
 
-En este sentido, se adiciona al HDL de siete segmentos 4 seÃ±ales de control para el LCD, llamadas An. cada bit de la seÃ±al `An` debe ser modificado en el tiempo, con el fin de activar solo un display.  
+En este sentido, se adiciona al HDL de siete segmentos 4 señales de control para el LCD, llamadas An. cada bit de la señal `An` debe ser modificado en el tiempo, con el fin de activar solo un display.  
+
+![4_señales](http://www.coffeebrain.org/wiki/images/thumb/b/b6/CNBCD7S.png/800px-CNBCD7S.png)
+
 
 ## Diagrama Estructural 
 
