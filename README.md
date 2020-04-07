@@ -107,19 +107,20 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 
 ```verilog
-timescale 1ns / 1ps
+timescale 1ns / 1ps   // s
 module display(
     input [15:0] num,
     input clk,
-    output [0:6] sseg,
-    output reg [3:0] an,
+    output [0:6] sseg, // hay una salida que tiene el nombre de sseg de 7 bit's que van conectados al display
+    output reg [3:0] an, // hay una salida que tiene el nombre de An de 4 bit's la cual sera utilizara para terner comunicacion con el anodo del display que nos permitira la visualizacion, cuando utilizamos mas de  un display en la implementacion
+
 	 input rst,
 	 output led
     );
 
 
 
-reg [3:0]bcd=0;
+reg [3:0]bcd=0; // 
 //wire [15:0] num=16'h4321;
  
 BCDtoSSeg bcdtosseg(.BCD(bcd), .SSeg(sseg));
